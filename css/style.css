@@ -1,0 +1,63 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box {
+    width: 280px;
+    margin: 25px auto;
+}
+h3{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    background-size: auto;
+    background-color: rgba(0, 0, 0, 0.418);
+    font-family: 'DM Serif Text', serif;
+    font-size: 35px;
+}
+.form-control{
+    width: 178px;
+    display: inline-block;
+
+}
+.btn {
+    color: white;
+    background: grey;
+}
+.alert{
+    display: none;
+}
+.table {
+    width: 360px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    letter-spacing: 1px;
+}
+.table, th, td {
+    border: 1px solid black;
+    padding-left: 3px;
+
+  }
+.table .cabecalho{
+    font-family: 'DM Serif Text', serif;
+    font-weight: lighter;
+
+}
+.cabecalho{
+    width: 180px;
+}
+.cabecalho td{
+    width: 180px;
+}
+/* #bg{
+    width: 100%;
+    background-size: cover;
+    background-color: bisque;
+    background-image: url('https://cdn.wallpapersafari.com/19/49/8unmpl.jpg')
+} */
