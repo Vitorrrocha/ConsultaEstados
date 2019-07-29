@@ -209,7 +209,7 @@ function alteraTable(estadoFormatado,) {
           document.getElementById('alerta').style.display = 'none'
      }
      else{
-          document.getElementById('alerta').style.display = 'block';    //mostra a imagem na tela
+          document.getElementById('alerta').style.display = 'block';    //mostra a mensagem na tela
      }
 }
 
