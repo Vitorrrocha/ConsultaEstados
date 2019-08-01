@@ -25,8 +25,8 @@ function alteraTable(estadoFormatado,) {
                nomeEx.innerHTML = "São Paulo"
                cap.innerHTML = "São Paulo"
                reg.innerHTML = "Sudeste"
-               document.getElementById('alerta').style.display = 'none' 
-               break   // desabilita a imagem de erro
+               document.getElementById('alerta').style.display = 'none' // desabilita a imagem de erro
+               break   
           
           case "santa catarina"://2
                sigla.innerHTML = "SC"
