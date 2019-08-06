@@ -18,7 +18,7 @@ document.addEventListener('keydown', function (event) { // permite consultar cli
  
  
      function estado(estados,estadoNome) {
-         var i = 0
+         let i = 0
          while(i < estados.length){ 
              console.log(`${estadoNome}, ${estados[i].id}`)
              if (estadoNome == estados[i].id) {
