@@ -22,7 +22,6 @@ document.addEventListener('keydown', function (event) { // permite consultar cli
          while(i < estados.length){ 
              console.log(`${estadoNome}, ${estados[i].id}`)
              if (estadoNome == estados[i].id) {
-                 console.log(`${estadoNome},${estados[i].id}`)
                  sigla.innerHTML = `${estados[i].sigla}`
                  nomeEx.innerHTML = `${estados[i].nomeEx}`
                  cap.innerHTML =  `${estados[i].capital}`
