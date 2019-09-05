@@ -23,11 +23,16 @@ h3{
 .form-control{
     width: 178px;
     display: inline-block;
-
+    border: 0 solid transparent!important;
+}
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
 }
 .btn {
     color: white;
     background: grey;
+    border: 0!important;
 }
 .alert{
     display: none;
