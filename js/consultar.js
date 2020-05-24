@@ -6,7 +6,7 @@ document.addEventListener('keydown', function (event) { // permite consultar cli
  
  function consultar(){
      var estadoNome = window.document.querySelector("input.form-control").value      //recebe os valores do formulario
-     var estadoFormatado = estadoNome.toLowerCase()                   
+     var estadoFormatado = estadoNome.toLowerCase().trim()                   
      estadoFormatado = estadoFormatado.normalize('NFD').replace(/[\u0300-\u036f]/g, "")   // tira os caracteres especiais        
      estadoNome = estadoFormatado
  
