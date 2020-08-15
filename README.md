@@ -1,5 +1,5 @@
 # ConsultaEstados
 ## https://vitorrrocha.github.io/ConsultaEstados/
-### Programa para consulta de informações dos estados brasileiros.
+### Program for consulting information on Brazilian states.
 
 ![alt text](https://raw.githubusercontent.com/Vitorrrocha/testeStairs/master/css/consultaEstadosImg.png)
